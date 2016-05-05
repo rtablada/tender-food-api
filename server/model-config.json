@@ -50,5 +50,17 @@
   "container": {
     "dataSource": "storage",
     "public": true
+  },
+  "recipe": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ingredient": {
+    "dataSource": "db",
+    "public": true
+  },
+  "instruction": {
+    "dataSource": "db",
+    "public": true
   }
 }
