@@ -21,9 +21,9 @@
   },
   "validations": [],
   "relations": {
-    "lists": {
+    "responses": {
       "type": "hasMany",
-      "model": "list",
+      "model": "response",
       "foreignKey": ""
     }
   },

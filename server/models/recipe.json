@@ -27,6 +27,11 @@
       "type": "hasMany",
       "model": "instruction",
       "foreignKey": ""
+    },
+    "responses": {
+      "type": "hasMany",
+      "model": "response",
+      "foreignKey": ""
     }
   },
   "acls": [],

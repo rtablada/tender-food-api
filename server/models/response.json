@@ -1,0 +1,29 @@
+{
+  "name": "response",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "liked": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "end-user": {
+      "type": "belongsTo",
+      "model": "end-user",
+      "foreignKey": ""
+    },
+    "recipe": {
+      "type": "belongsTo",
+      "model": "recipe",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
